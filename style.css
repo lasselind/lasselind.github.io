@@ -23,7 +23,9 @@ padding: 15px;
 button {
 color: #F1FFE7;
 background: none;
-font-size: 19px;
-border-radius: 20%;     
+font-size: 20px;
+border-radius: 20%;
+boder: none;
+color: #7D80DA;
 }
 
