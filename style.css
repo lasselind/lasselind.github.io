@@ -1,11 +1,11 @@
 
 h1  {
     font-size: 25px;
-    color: #7D80DA;
+    color: #EFF1F3;
 }
 
 body {
-background-color: #EFF1F3;
+background-color: #7D80DA;
 margin: 0px;
 }
 .navi {
@@ -26,6 +26,6 @@ background: none;
 font-size: 20px;
 border-radius: 20%;
 boder: none;
-color: #7D80DA;
+color: #EFF1F3;
 }
 
