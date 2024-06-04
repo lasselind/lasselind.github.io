@@ -28,4 +28,6 @@ border-radius: 20%;
 border: none;
 color: #EFF1F3;
 }
+button:hover {
+    color: #7D80DA;  }
 
