@@ -1,4 +1,12 @@
-
+.home (
+    display: flex;
+)
+.kundenmeinungen (
+    display: none;
+)
+.buchen (
+   display: none;
+)
 h1  {
     font-size: 25px;
     color: #EFF1F3;
