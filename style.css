@@ -27,6 +27,10 @@ border-bottom: 7px solid #EFF1F3;
 }
 .content {
 padding: 15px;
+display: flex;
+}
+.leftcontainer {
+    padding: 20px;
 }
 button {
 color: #F1FFE7;
