@@ -5,9 +5,9 @@
       </head>
 <body>
       <div class="navi">
-            <button>Home</button>
-            <button>Informationen</button>
-            <button>Buchen</button>
+            <button onclick="showHome()">Home</button>
+            <button onclick="showInformationen()">Informationen</button>
+            <button onclick="showBuchen()">Buchen</button>
       </div>
       <div class="content">
          <section class="home">
@@ -32,6 +32,32 @@
                   Hier kommt noch was
             </section>
       </div>
+      <script>
+            function showHome() {
+                var HomeSection = document.querySelector (".home");
+                  HomeSection.style.display = "flex";
+                  var InformationenSection = document.querySelector(".informationen");
+                  InrormationenSection.style.display = "none";
+                  var BuchenSection = document.querySelector(".buchen");
+                  BuchenSection.style.display = "none";   
+            }
+            function showInformationen() {
+                  var HomeSection = document.querySelector (".home");
+                  HomeSection.style.display = "none";
+                  var InformationenSection = document.querySelector(".informationen");
+                  InrormationenSection.style.display = "flex";
+                  var BuchenSection = document.querySelector(".buchen");
+                  BuchenSection.style.display = "none";
+            }
+            function showBuchen() {
+                  var HomeSection = document.querySelector (".home");
+                  HomeSection.style.display = "none";
+                  var InformationenSection = document.querySelector(".informationen");
+                  InrormationenSection.style.display = "none";
+                  var BuchenSection = document.querySelector(".buchen");
+                  BuchenSection.style.display = "flex"; 
+            }
+      </script>
 </body>
 </html>
 
