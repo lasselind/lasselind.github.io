@@ -41,6 +41,9 @@ font-size: 20px;
 border-radius: 20%;
 border: none;
 color: #EFF1F3;
+font-family: "Ubuntu", sans-serif;
+font-weight: 300;
+font-style: normal;    
 }
 button:hover {
     color: #7D80DA;  }
