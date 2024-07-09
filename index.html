@@ -40,7 +40,7 @@
             </section>
             <section class="buchen">
              Falls Sie nun den Platz mieten wollen, klicken Sie einfach auf Buchung. 
-             <button>Buchung</button>
+             <button onclick="zeigeMeldung()">Buchung</button>
             </section>
       </div>
       <script>
@@ -67,6 +67,9 @@
                   InrormationenSection.style.display = "none";
                   var BuchenSection = document.querySelector(".buchen");
                   BuchenSection.style.display = "flex"; 
+            }
+            function zeigeMeldung() {
+                  alert("Ihnen wurden durch Klicken dieses Buttons ein betrag von 100.000€ abgezogen, wir hoffen,dass das keine großen Umstände macht!");
             }
       </script>
 </body>
