@@ -51,3 +51,8 @@ font-style: normal;
 button:hover {
     color: red;  }
 
+.infoinhalt {
+    text-align: left;
+    padding: 30px;
+}
+
