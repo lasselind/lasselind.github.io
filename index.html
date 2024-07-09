@@ -1,79 +1,74 @@
-<html> 
+<html lang="de">
       <head>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet"> 
-        <title>Der Wasser-Fußballplatz - Fußball auf dem Wasser </title>
-      <link rel="stylesheet" href="style.css">
+          <meta charset="UTF-8">
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+          <title>Der Wasser-Fußballplatz - Fußball auf dem Wasser</title>
+          <link rel="stylesheet" href="style.css">
       </head>
-<body>
-      <div class="navi">
-            <button onclick="showHome()">Home</button>
-            <button onclick="showInformationen()">Informationen</button>
-            <button onclick="showBuchen()">Buchen</button>
-            <button> <a href="https://www.tiktok.com/@lasse_l19">Mein TikTok</button>
-      </div>
-      <div class="content">
-         <section class="home">
-         <div class="leftcontainer">
-            <h1>Herzlich Willkommen!</h1>
-      <p>Wollten sie schon mal auf dem Wasser Fußball spielen, dann ist hier Ihre Möglickeit!
-         Erleben Sie ein einmaliges Erlebnis auf unserem neuen Wasser-Fußballplatz. Sie werden
-            großen Spaß mit ihren Freunden haben, während sie die Aussicht auf das Wasser genießen können.
-            Sowas haben Sie noch nie erlebt!
-            Also machen Sie jetzt einen Termin mit uns aus, wir freuen uns auf Euch, bis dann! </p>
-         </div>
-            <img src="bilderrr/1720444902705.png" width="770" height="420">      
-            
-         </section>
-            <section class="informationen">
-            Hier stehen ein paar Informationen zu dem Platz! 
-            <div class="infoinhalt">
-            <h1> Öffnungszeiten </h1> 
-            <p> Montag: Geschlossen</p> 
-            <p> Dienstag: 11:00-17:00 Uhr</p>
-            <p> Mittwoch: 11:00-17:00 Uhr</p>
-            <p> Donnerstag: 11:00-17:00 Uhr</p>
-            <p> Freitag: 12:00-18:00 Uhr</p>
-            <p> Samstag: 11:00-17:00 Uhr</p>
-            <p> Sonntag: 13:00-16:00 Uhr</p>
-            </div>
-            </section>
-            <section class="buchen">
-             Falls Sie nun den Platz mieten wollen, klicken Sie einfach auf Buchung. 
-             <button onclick="zeigeMeldung()">Buchung</button>
-            </section>
-      </div>
-      <script>
-            function showHome() {
-                var HomeSection = document.querySelector (".home");
-                  HomeSection.style.display = "flex";
-                  var InformationenSection = document.querySelector(".informationen");
-                  InrormationenSection.style.display = "none";
-                  var BuchenSection = document.querySelector(".buchen");
-                  BuchenSection.style.display = "none";   
-            }
-            function showInformationen() {
-                  var HomeSection = document.querySelector (".home");
-                  HomeSection.style.display = "none";
-                  var InformationenSection = document.querySelector(".informationen");
-                  InrormationenSection.style.display = "flex";
-                  var BuchenSection = document.querySelector(".buchen");
-                  BuchenSection.style.display = "none";
-            }
-            function showBuchen() {
-                  var HomeSection = document.querySelector (".home");
-                  HomeSection.style.display = "none";
-                  var InformationenSection = document.querySelector(".informationen");
-                  InrormationenSection.style.display = "none";
-                  var BuchenSection = document.querySelector(".buchen");
-                  BuchenSection.style.display = "flex"; 
-            }
-            function zeigeMeldung() {
-                  alert("Ihnen wurden durch Klicken dieses Buttons ein betrag von 100.000€ abgezogen, wir hoffen,dass das keine großen Umstände macht!");
-            }
-      </script>
-</body>
-</html>
+      <body>
+          <div class="navi">
+              <button onclick="showHome()">Home</button>
+              <button onclick="showInformationen()">Informationen</button>
+              <button onclick="showBuchen()">Buchen</button>
+              <button><a href="https://www.tiktok.com/@lasse_l19">Mein TikTok</a></button>
+          </div>
+          <div class="content">
+              <section class="home">
+                  <div class="leftcontainer">
+                      <h1>Herzlich Willkommen!</h1>
+                      <p>Wollten Sie schon mal auf dem Wasser Fußball spielen, dann ist hier Ihre Möglichkeit!
+                          Erleben Sie ein einmaliges Erlebnis auf unserem neuen Wasser-Fußballplatz. Sie werden
+                          großen Spaß mit Ihren Freunden haben, während Sie die Aussicht auf das Wasser genießen können.
+                          Sowas haben Sie noch nie erlebt!
+                          Also machen Sie jetzt einen Termin mit uns aus, wir freuen uns auf Euch, bis dann!
+                      </p>
+                  </div>
+                  <img src="bilderrr/1720444902705.png" width="770" height="420">
+              </section>
+              <section class="informationen" style="display: none;">
+                  Hier stehen ein paar Informationen zu dem Platz!
+                  <div class="infoinhalt">
+                      <h1>Öffnungszeiten</h1>
+                      <p>Montag: Geschlossen</p>
+                      <p>Dienstag: 11:00-17:00 Uhr</p>
+                      <p>Mittwoch: 11:00-17:00 Uhr</p>
+                      <p>Donnerstag: 11:00-17:00 Uhr</p>
+                      <p>Freitag: 12:00-18:00 Uhr</p>
+                      <p>Samstag: 11:00-17:00 Uhr</p>
+                      <p>Sonntag: 13:00-16:00 Uhr</p>
+                  </div>
+              </section>
+              <section class="buchen" style="display: none;">
+                  Falls Sie nun den Platz mieten wollen, klicken Sie einfach auf Buchung.
+                  <button onclick="zeigeMeldung()">Buchung</button>
+              </section>
+          </div>
+          <script>
+              function showHome() {
+                  document.querySelector(".home").style.display = "flex";
+                  document.querySelector(".informationen").style.display = "none";
+                  document.querySelector(".buchen").style.display = "none";
+              }
+              
+              function showInformationen() {
+                  document.querySelector(".home").style.display = "none";
+                  document.querySelector(".informationen").style.display = "flex";
+                  document.querySelector(".buchen").style.display = "none";
+              }
+              
+              function showBuchen() {
+                  document.querySelector(".home").style.display = "none";
+                  document.querySelector(".informationen").style.display = "none";
+                  document.querySelector(".buchen").style.display = "flex";
+              }
+              
+              function zeigeMeldung() {
+                  alert("Vielen Dank für Ihre Buchung! Wir freuen uns auf Ihren Besuch.");
+              }
+          </script>
+      </body>
+      </html>
 
 
