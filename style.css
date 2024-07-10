@@ -12,7 +12,7 @@ h1  {
     color: #EFF1F3;
 }
 p {
-font-ize: 15px;    
+font-size: 15px;    
 }
 
 body {
@@ -30,7 +30,6 @@ color: #F1FFE7;
 text-align: center;
 font-size: 20px;
 border-bottom: 7px solid #EFF1F3;
-display: flex;
 }
 .content {
 display: flex;
